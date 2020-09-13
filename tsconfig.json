@@ -1,0 +1,30 @@
+{
+    "env": {
+        "node": true,
+        "es6": true,
+        "browser": true,
+    },
+    "globals": {},
+    "compilerOptions": {
+        "module": "commonjs",
+        "jsx": "react",
+        // "types": ["node"],
+        "target": "ES6",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        // "noUnusedLocals": true
+    },
+    "compileOnSave": false,
+    "exclude": [
+        "node_modules"
+    ]
+}
